@@ -1,26 +1,25 @@
-document.getElementById('btn').innerHTML = `Decrease ${value}`;
-var up = true;
-var value = 10;
-var increment = 1;
-var ceiling = 0;
+var down = true;
+var start = 10;
+var value = 1;
+var end = 0;
+var string = 'Decrease';
+
+document.getElementById('btn').innerHTML = `${string} ${start}`;
 
 function mf() {
-  if (up == true && value >= ceiling) {
-    value -= increment
-
-    if (value == ceiling) {
-      up = false;
-    }
+  if (down == true && start >= end) {
+    start -= value;
   } else {
-      up = false
-      value += increment;
-
-      if (value == 10) {
-        up = true;
-      }
+      start += value;
   }
-
-  document.getElementById('btn').innerHTML = `Decrease ${value}`;
+  if (start == end) {
+    down = false
+    string = 'Increase';
+  }
+  if (start == 10) {
+    down = true
+    string = 'Decrease';
+  }
+  document.getElementById('btn').innerHTML = `${string} ${start}`;
 }
-
 

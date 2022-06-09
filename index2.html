@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>To Do List</title>
+</head>
+<body>
+    <header class="container">
+        <div class="row d-flex justify-content-center hrow_custom">
+            <h1 class="h_h1">To Do List!</h1>
+            <form id="tdf" class="h_f1">
+                <input 
+                type="text" 
+                id="td-input" 
+                placeholder="Add new task"
+                class="addtask">
+                <input 
+                type="submit"
+                id="td-submit"
+                value="Add task"
+                class="btn btn-primary btn_custom">
+            </form>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="task-list mrow_custom row d-flex">
+            <h2 class="m_h2">Tasks</h2>
+            <div id="tasks" class="mt2">
+
+                <!-- <div class="task task_custom">
+                    <div class="content m_t2">
+                        <input 
+                        type="textarea"
+                        class="text text_custom"
+                        value="my task"
+                        readonly>
+                    </div>
+                    <div class="actions m_b2">
+                        <button class="edit btn btn-primary">Edit</button>
+                        <button class="delete btn btn-danger">Delete</button>
+                        <button class="Done btn btn-warning">Done</button>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="js2.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.h_h1 {
+    width: 50% !important;
+}
+.h_f1 {
+    width: 50% !important; 
+}
+.hrow_custom {
+    flex-direction: column;
+    align-items: center;
+}
+.mrow_custom {
+    flex-direction: column;
+    align-items: center;
+}
+.m_h2 {
+    width: 50% !important;
+}
+.m_t2 {
+    width: 35% !important;
+}
+.m_b2 {
+    width: 35% !important;
+}
+.mt2 {
+    width: 50% !important;
+}
+.task_custom {
+    display: flex;
+}
+.text_custom {
+    width: 95%;
+    height: 100%;
+}
+.addtask {
+    height: 35px;
+    width: 500px;
+}
+.btn_custom {
+    position: relative;
+    bottom: 2.5px;
+    left: 5px;
+}
